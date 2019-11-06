@@ -1,0 +1,328 @@
+\documentclass[11pt]{article}
+
+  \usepackage{graphicx}
+  \usepackage{color}
+  \usepackage{hyperref}
+  \usepackage{longtable}
+  \DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{fullpage}
+\pagestyle{plain}
+\parindent 0pt
+\parskip \baselineskip
+\newcommand{\place}[1]{{\sc #1}}
+\newcommand{\header}[1]{\underline{\large\sc #1}}
+\newcommand{\entry}[2]{{\emph{#1}}&{ #2 }\\[0.22cm]}
+
+\begin{document}
+\vspace{-2cm}
+
+\begin{center}{\Large \bf \sc Sara Mohammad Taheri}\\[.18cm] {\it \today} \\[.3cm]
+Phone: (781) 363-5446 
+\hfill Khoury College of Computer Sciences \\
+Email: {\tt mohammadtaheri.s@husky.neu.edu} 
+\hfill \place{Northeastern University}, Boston MA \\[-2cm]
+\end{center}\hrulefill
+
+\def\todo#1{{\color{red}[TODO: #1]}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-.9cm}
+
+\subsection*{Research interests}
+
+\begin{itemize}
+\vspace{-.5cm}
+\item Causal inference and its applications especially in biology.
+\vspace{-.3cm}
+\item Causal structure learning from observational biomolecular data
+\vspace{-.3cm}
+\item Probabilistic graphical models (PGMs)
+\vspace{-.3cm}
+\item Statistical and machine-learning methods.
+%specially for quantitative mass spectrometry-based proteomics
+%\vspace{-.75cm}
+%\vspace{-.3cm}
+%\item R-based computing for life sciences research.
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-1cm}
+\subsection*{Education}
+\vspace{-.25cm}
+\begin{tabular}{@{}p{1.5cm}p{14.5cm}}
+\entry{2016-current} {PhD student, Computer Science, \place{Northeastern University}, USA
+\newline Advisor: O. Vitek}
+
+\entry{2014}{MS, Mathematics, \place{Sharif University of Technology}, Iran.
+\newline Thesis: {\it ``On mixing time for some Markov Chain Monte Carlo"}
+\newline Advisor: K. Alishahi
+}
+
+\entry{2010}{BS. in Mathematics, \place{Sharif University of Technology}, Iran.
+\newline Diploma: {\it ``Roman Domination in Graph Theory"}
+\newline Advisor: S. Akbari 
+}
+\end{tabular}
+
+\vspace{-0.5cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Professional Experience}
+\vspace{-0.5cm}
+\begin{longtable}{@{}p{1.5cm}p{14.5cm}}
+
+\entry{09/2016-present} {Graduate Assistant. \place{Northeastern University}, USA.
+\begin{itemize}
+\item Developed an online open-source R-based software for systems suitability and statistical process control in mass spectrometry-based quantitative proteomics. It is hosted under \url{<https://eralpdogu.shinyapps.io/msstatsqc/>} which is currently used by researchers for statistical analysis  and quality control of their experiments.
+\item Developed two R packages, MSstatsQC and MSstatsQCgui package and submitted to bioconductor.
+\item Current research is on finding causal regulatory networks from observational biomolecular data. The nodes represent genes, proteins, transcripts or metabolites, and directed edges represent causal regulatory relationships.
+\end{itemize}
+}
+
+\entry{06/2018-09/2018}{Precision Medicine Research Intern
+. \place{GNS Healthcare Company}, USA. 
+\begin{itemize} 
+\vspace{-0.25cm}
+\item Enhanced constraint-based structure learning algorithms algorithms in bnlearn (R package) by adding an optional input to the algorithms to use for mitigating the effect of measurement error on network inference. This modification caused significant improvement in the results of the algorithm.This work was a follow up on the internship in 2017 with the same company.
+   \end{itemize}
+   \vspace{-0.25cm}
+}
+   
+
+\entry{06/2017-09/2017}{Precision Medicine Research Intern
+. \place{GNS Healthcare Company}, USA. 
+\begin{itemize} 
+\vspace{-0.25cm}
+\item Improved constraint-based structure learning algorithms by mitigating the effect of measurement error on network inference. The idea was to correct the estimate of Covariance matrix from observational data by estimating the variance of measurement error for each variable. 
+   \end{itemize}
+   \vspace{-0.25cm}
+}
+
+\entry{05/2019 05/2018 05/2017}{Instructor for Github and RMarkdown \place{Northeastern University}, USA. 
+\begin{itemize} 
+\vspace{-0.25cm}
+   \item ``May Institute - Computation and statistics for mass spectrometry and proteomics."
+   \item Supported by the 1R25EB023929-01 award from National Institute of Health (NIH), and by German network for bioinformatics infrastructure.
+   \end{itemize}
+   \vspace{-0.25cm}
+}   
+%\entry{09/2017-11/2017}
+\entry{09/2009-11/2017}{Teaching assistant. \place{Northeastern University}, USA. 
+\begin{itemize} 
+\vspace{-0.25cm}
+   \item MS course ``Introduction to Data Management and Processing". Grading, Office hours. 2017
+   \vspace{-0.25cm}
+   \item MS course ``Machine Learning". Grading, Office hours. 2017
+   \vspace{-0.25cm}
+   \item MS course ``Collecting, Storing, and Retrieving Data". Office hours. 2016
+   \vspace{-0.25cm}
+  \item  MS course ``Topics in Statistics and Data Analysis''. Grading, office hours. 2016
+     \vspace{-0.25cm}
+   \item  BS course ``Number Theory". Grading, office hours. 2009
+   \end{itemize}
+
+}
+
+%\entry{01/2017-04/2017}{Teaching assistant. \place{Northeastern University}, USA. 
+%\begin{itemize} 
+%\vspace{-0.25cm}
+%   \item MS course ``Machine Learning". Grading, Office hours.
+%   \end{itemize}
+%   \vspace{-0.25cm}
+%}
+
+%\entry{09/2016-11/2016}{Teaching assistant. \place{Northeastern University}, USA. 
+%\begin{itemize} 
+%\vspace{-0.25cm}
+%   \item MS course ``Collecting, Storing, and Retrieving Data". Office hours.
+%   \vspace{-0.25cm}
+%  \item  MS course ``Topics in Statistics and Data Analysis''. Grading, office hours.
+%   \end{itemize}
+%   \vspace{-0.25cm}
+%}
+
+
+\entry{02/2009-03/2010}{Volunteer researcher. \place{Institute for Theoretical Physics \& Mathematics}, Iran.  
+ \begin{itemize}
+\vspace{-0.25cm}
+\item Research on Roman Domination in graph theory. \newline Advisor: S.Akbari 
+\end{itemize}
+ }
+ 
+%\entry{09/2009-11/2009}{Teaching assistant. \place{Sharif University of Technology}, USA. 
+%\begin{itemize} 
+%\vspace{-0.25cm}
+%   \item  BS course ``Number Theory". Grading, office hours 
+%   \end{itemize}
+%   \vspace{-0.25cm}
+%}
+ 
+\entry{02/2009-08/2015}{K-12 Mathematics teacher, Tehran, Iran.  
+} 
+
+
+\end{longtable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Programming skills}
+\vspace{-.25cm}
+%\begin{tabular}{@{}p{1.5cm}p{14.5cm}}
+
+%\entry{Proficient}{\place{} 
+R (including {\tt Shiny}, {\tt tidyr}, {\tt dplyr}, {\tt ggplot2}, package development, markdown documentation), Python,  \LaTeX, Bash scripting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Awards}
+\vspace{-.6cm}
+\begin{tabular}{@{}p{1.5cm}p{14.5cm}}
+\entry{2006}{Fellowship for B.Sc. in Mathematics, \place{Sharif University of Technology}, Iran}
+\end{tabular}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-.6cm}
+\subsection*{Publications}
+\begin{enumerate}
+\vspace{-0.22cm}
+\item E. Dogu, S. Mohammad-Taheri, S. E. Abbatiello, M. S.Bereman, B. MacLean, B. Schilling, O. Vitek, ``MSstatsQC: Longitudinal System Suitability Monitoring and Quality Control for Targeted Proteomic Experiments". {\it Molecular and Cellular Proteomics}. 2017
+\item E. Dogu, S. Mohammad Taheri, R. Olivelia, F. Marty, Ian Lienert, L. Reiter, E. Sabidó, O. Vitek, ``MSstatsQC 2.0: R/Bioconductor package for statistical quality control of mass spectrometry-based proteomic experiments". {\it J. Proteome Res.}2018
+\end{enumerate}
+
+%\subsection*{Publication in preparation}
+%\begin{enumerate}
+%\vspace{-0.22cm}
+%\item Mohammad Taheri Sara, Furchtgott Leon, Hayete Boris, Vitek Olga, 2019. ``Using multiple data sets to infer gene regulatory network structure of E. Coli. ISMB, 2020
+%\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-0.9cm}
+\subsection*{Posters}
+\begin{enumerate}
+\vspace{-0.6cm}
+\item Mohammad Taheri Sara, Furchtgott Leon, Hayete Boris, Vitek Olga, 2019. ``Improving Structure Learning of Bayesian Network in Experiments with Complex Designs." SAMSI 2019
+
+\item Dogu Eralp, Mohammed Taheri Sara, Pujol Roger, Sabido Eduard, Vıtek Olga, 2018. ``New developments in MSstatsQC: a new R/Bioconductor package MSstatsQCgui, quality control for targeted and discovery proteomics workflows, machine learning based quality monitoring." ASMS 2018
+
+\item Dogu Eralp, Mohammed Taheri Sara, Abbatiello Susan, Bereman Michael, Maclean Brendan, Schillıng Birgit, Vitek Olga, 2017. ``MSstatsQC: Longitudinal system suitability and quality control for proteomic experiments." ASMS Conference on Mass Spectrometry and Allied Topics.
+
+%\item ``A System Suitability Monitoring Method for LC MS/MS Proteomic Experiments". {\it Annual Conference of US Human Proteome Organization (USHUPO)}, Boston, USA. 2016.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-0.9cm}
+\subsection*{Presentations}
+
+\vspace{-.25cm}
+\begin{tabular}{@{}p{1.5cm}p{14.5cm}}
+\entry{2019}{{}
+\begin{itemize} 
+\vspace{-0.25cm}
+   \item Improving structure learning of Bayesian network in experiments with complex designs, SAMSI Conference, North Carolina, USA
+   \item How to infer network structure in presence of measurement error, Princeton University, Department of molecular biology, USA
+   \end{itemize}
+   \vspace{-0.25cm}
+}
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{-.9cm}
+%\subsection*{Software}
+%\begin{itemize}
+%\vspace{-0.6cm}
+%\item {\bf MSstatsQC} {\tt www.msstats.org/msstatsqc} \newline Open-source R-based software package and Shiny interface for system suitability monitoring in quantitative mass spectrometry based proteomics.
+% \end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection*{Professional memberships}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%}
+%\entry{Familiar}{\place{} Bash scripting
+%}
+%\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{-0.9cm}
+%\subsection*{Selected short courses}
+%
+%\vspace{-.25cm}
+%\begin{tabular}{@{}p{1.5cm}p{14.5cm}}
+%
+%\entry{2019}{{}
+%\begin{itemize} 
+%\vspace{-0.25cm}
+%   \item An introduction to causal inference, Harvard T.H. Chan school of public health, Boston, USA
+%   \item Bridging causal inference, reinforcement learning and transfer learning, MIT Samberg conference center, Cambridge, USA
+%   \end{itemize}
+%   \vspace{-0.25cm}
+%}
+%
+%\entry{2017}{{}
+%\begin{itemize} 
+%\vspace{-0.25cm}
+%   \item Causal inference and big data summer institute, University of Pennsylvania, Philadelphia, USA
+%   \end{itemize}
+%   \vspace{-0.25cm}
+%}
+%
+%\entry{2016}{{}
+%\begin{itemize} 
+%\vspace{-0.25cm}
+%   \item Design and analysis of quantitative proteomic experiments: Introduction to Statistical Methods and Practical Examples using Skyline, R and MSstats, \textit{US HUPO}, Boston, USA
+%   \item  Master R Developer Workshop, \textit{RStudio}. New York, USA
+%   \item Computation $\&$ statistics for targeted proteomic, \textit{Northeastern University}, Boston, MA.
+%   \item EARL 2016, Advanced shiny workshop, Boston, USA 
+%   \end{itemize}
+%   \vspace{-0.25cm}
+%}
+%\end{tabular}
+%
+%
+%\subsection*{Selected coursework}
+%
+%\vspace{-.25cm}
+%\begin{tabular}{@{}p{1.5cm}p{14.5cm}}
+%\entry{09/2016-present}{PhD courses, Computer Science, \place{Northeastern University}, USA.
+%\vspace{0.1cm}
+%\newline
+%\begin{itemize} 
+%\item Machine learning
+%\item Advanced machine learning (Bayesian methods for probabilistic modeling and inference)
+%\item Artificial Intelligence
+%\item High-Dimensional Data Analysis via Parsimonious Modeling and Probabilistic Graphical Models
+%\item Advance Algorithm
+%\item Intensive Computer Systems
+%   \end{itemize}
+%\vspace{0.35cm}
+%}
+%%\vspace{0.5cm}
+%\entry{09/2011-01/2014}{MSc courses, Mathematics, \place{Sharif University of Technology}, Iran.
+%\vspace{0.1cm}
+%\newline
+%\begin{itemize} 
+%\item Applicable Stochastic Processes
+%\item Advanced Statistics
+%\item  Advanced Probability Theory
+%\end{itemize}
+%   \vspace{-0.25cm}
+%}
+%\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
